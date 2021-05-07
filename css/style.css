@@ -52,6 +52,7 @@ main{
     display: block;
     position: absolute;
     transition: all 0.5s;
+    left: 5px;
 }
 .hamburger span:nth-child(1){
     top: 15px;
@@ -69,7 +70,6 @@ main{
 .hamburger_active span:nth-child(1){
     transform: rotate(-45deg);
     margin-top: 9px;
-    background-color: #ff6219;
 }
 .hamburger_active span:nth-child(3){
     transform: rotate(45deg);
